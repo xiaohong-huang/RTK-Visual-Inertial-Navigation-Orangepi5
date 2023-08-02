@@ -766,7 +766,7 @@ void SWFOptimization::MeasurementProcess() {
 
     while (condition1 || condition2 || condition3) {
         if (ENABLE_ONLINE &&  feature_buf.size() > 25) {
-            std::cout << "\033[31m warning!! difficult for realtime. This should not happend in Jetson TX2 platform "
+            std::cout << "\033[31m warning!! difficult for realtime. This should not happend in Orangepi5 platform "
                  << "buf size:" << rover_buf.size() << "," << feature_buf.size() << " \033[0m" << endl << endl;
 
         }
