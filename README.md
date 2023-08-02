@@ -24,7 +24,7 @@ This package requires some features of C++11.
 ### 1.2 ROS
 This package is developed under [ROS Melodic](http://wiki.ros.org/melodic) environment.
 
-### 1.3 Opencv 3 with CUDA
+### 1.3 Opencv 3 with OPENCL
 Our code uses [Opencv 3](https://github.com/opencv/opencv/tree/3.4) and [Opencv extra modules](https://github.com/opencv/opencv_contrib/tree/3.4) for image process.
 
 ## 2. Build RTK-Visual-Inertial-Navigation-Orangepi5
@@ -58,13 +58,6 @@ cd ~/catkin_ws/
 catkin_make
 ```
 
-For the Jetson-TX2 paltform, we use the Quad-Core ARM® Cortex®-A57 MPCore for state optimization, one of the Denver core for front-end processing, and NVIDIA CUDA cores for image feature extraction. To enable this setting, you can set the Jetson-TX2 to MAXN power mode by:
-```
-sudo nvpmodel -m 0
-sudo nvpmodel -q verbose
-sudo jetson_clocks --fan
-sudo jetson_clocks
-```
 
 
 ## 3. Run RTK-Visual-Inertial-Navigation-Orangepi5 with our dataset
