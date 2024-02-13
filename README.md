@@ -1,8 +1,8 @@
 # RTK-Visual-Inertial-Navigation-Orangepi5
 
-A Sliding Window Filter with GNSS-State Constraint for RTK-Visual-Inertial Navigation. [paper link]()
+A Sliding Window Filter with GNSS-State Constraint for RTK-Visual-Inertial Navigation. [paper link](https://ieeexplore.ieee.org/document/10432782)
 
-Authors: Xiaohong Huang, Cui Yang
+Authors: Xiaohong Huang, Cui Yang, Miaowen Wen
 
 **RTK-Visual-Inertial-Navigation-Orangepi5** is a fast version of  [RTK-Visual-Inertial-Navigation](https://github.com/xiaohong-huang/RTK-Visual-Inertial-Navigation). The purpose of this project is to improve the efficiency of [RTK-Visual-Inertial-Navigation](https://github.com/xiaohong-huang/RTK-Visual-Inertial-Navigation) so that it can run on embedded devices, such as [Orangepi5](http://www.orangepi.cn/html/hardWare/computerAndMicrocontrollers/details/Orange-Pi-5.html). The RTK-Visual-Inertial-Navigation-Orangepi5 can achieve real-time state estimation with a state update rate of 25Hz in Orangepi5.
 
